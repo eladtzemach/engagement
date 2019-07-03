@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac654012-1f37-4b9b-a5a1-4bd7e4a74dc4" name="Default Changelist" comment="" />
+    <list default="true" id="ac654012-1f37-4b9b-a5a1-4bd7e4a74dc4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -35,13 +39,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="264" />
+          <entry key="css" value="49" />
+          <entry key="html" value="286" />
           <entry key="js" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="264" />
+          <entry key="CSS" value="49" />
+          <entry key="HTML" value="286" />
           <entry key="JavaScript" value="7" />
         </counts>
       </usages-collector>
@@ -52,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="77" column="99" selection-start-line="77" selection-start-column="91" selection-end-line="77" selection-end-column="99" />
+            <state relative-caret-position="252">
+              <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
             </state>
           </provider>
         </entry>
@@ -61,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13077" selection-start-column="13077" selection-end-column="13077" />
+            <state relative-caret-position="179">
+              <caret line="51" column="10" lean-forward="true" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -92,12 +98,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>A PICTURE IS WORTH A THOUSAND WORDS</find>
-      <find>glimpse</find>
-      <find>map-canvas</find>
-      <find>lng:</find>
-      <find>setcenter</find>
-      <find>btn-show-map</find>
       <find>google</find>
       <find>initBBSRMap</find>
       <find>toggle-map-content</find>
@@ -116,16 +116,22 @@
       <find>add to cal</find>
       <find>1h</find>
       <find>googl</find>
-      <find>calend</find>
       <find>wedding</find>
       <find>events</find>
       <find>how we</find>
       <find>rsvp-btn</find>
       <find>rsvp</find>
+      <find>hero.</find>
+      <find>hero</find>
+      <find>calend</find>
+      <find>#e8ca6f</find>
+      <find>0000</find>
+      <find>.p</find>
+      <find>thornhill</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -133,6 +139,7 @@
         <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/js/scripts.min.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/styles.min.css" />
       </list>
     </option>
   </component>
@@ -158,8 +165,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1920" />
-    <option name="y" value="70" />
+    <option name="y" value="24" />
     <option name="width" value="1440" />
     <option name="height" value="812" />
   </component>
@@ -175,6 +181,11 @@
             <path>
               <item name="wedding-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="wedding-website" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wedding-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wedding-website" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wedding-website" type="b2602c69:ProjectViewProjectNode" />
@@ -222,15 +233,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562075598791</updated>
-      <workItem from="1562075603460" duration="9931000" />
+      <workItem from="1562075603460" duration="10534000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9931000" />
+    <option name="totallyTimeSpent" value="10534000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="70" width="1440" height="812" extended-state="0" />
+    <frame x="0" y="24" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
@@ -280,15 +291,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="77" column="99" selection-start-line="77" selection-start-column="91" selection-end-line="77" selection-end-column="99" />
+        <state relative-caret-position="252">
+          <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13077" selection-start-column="13077" selection-end-column="13077" />
+        <state relative-caret-position="179">
+          <caret line="51" column="10" lean-forward="true" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
         </state>
       </provider>
     </entry>
