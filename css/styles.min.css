@@ -64,6 +64,7 @@ h5 {
 
 .registryLink {
     margin: 0 0 0 ;
+    color: #fff;
 }
 
 .btn:hover, .btn:focus {
@@ -550,7 +551,7 @@ header .member-actions {
 }
 
 #intro {
-    padding-top: 40px
+    padding-top: 0px
 }
 
 #intro img {
