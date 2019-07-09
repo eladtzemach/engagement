@@ -423,6 +423,19 @@ section .header {
     margin-bottom: 12%
 }
 
+.attendingBox {
+    margin-bottom: 5%;
+}
+
+.attendingText {
+    color: #3D4351;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 29px;
+    text-transform: none;
+}
+
 .navigation {
     transition: all 300ms ease-in-out;
     position: fixed;

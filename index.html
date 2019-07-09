@@ -168,6 +168,20 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
+    <div id="rsvp-modal-no" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <div class="section-padding">
+                        <h3>Thank you for responding!</h3>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
@@ -175,6 +189,17 @@
                 <form id="rsvp-form" class="rsvp-form"
                       action=""
                       method="POST">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div>
+                                <i class="fa"><h3 class="attendingText">Attending?</h3></i>
+                                <select name="attending">
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
@@ -185,18 +210,18 @@
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-users"></i><input type="number" name="number" class="" min="0"
-                                                                  placeholder="Number of people"
-                                                                  required>
+                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
+                                                                     placeholder="Your email"
+                                                                     required>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-input-group">
-                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
-                                                                     placeholder="Your email"
-                                                                     required>
+                                <i class="fa fa-users"></i><input type="number" name="number" class="" min="0"
+                                                                  placeholder="Number of people (if attending)"
+                            >
                             </div>
                         </div>
                     </div>
