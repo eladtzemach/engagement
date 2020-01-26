@@ -10,7 +10,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <title>Elad & Jodi are engaged!</title>
+    <title>Jodi & Elad's Wedding!</title>
     <meta name="description" content="We would like to invite you to our big day.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ffffff">
@@ -43,13 +43,14 @@
                 <div class="header-nav">
                     <nav>
                         <ul class="primary-nav">
-                            <li><a href="#intro">How we met</a></li>
                             <li><a href="#map">when and where</a></li>
+                            <li><a href="#hotels">Hotels</a></li>
                             <li><a href="#registry">Registry</a></li>
+                            <li><a href="#intro">How we met</a></li>
                         </ul>
-                        <ul class="member-actions">
-                            <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
-                        </ul>
+<!--                        <ul class="member-actions">-->
+<!--                            <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>-->
+<!--                        </ul>-->
                     </nav>
                 </div>
                 <div class="navicon">
@@ -71,26 +72,83 @@
         </div>
         <div class="row">
             <div class="col-sm-4 hidden-xs"></div>
-            <div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
-                                                           class="btn-white btn-large rsvp-btn whiteRSVP">RSVP</a></div>
+<!--            <div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"-->
+<!--                                                           class="btn-white btn-large rsvp-btn whiteRSVP">RSVP</a></div>-->
             <div class="col-sm-4 hidden-xs"></div>
         </div>
     </div>
     <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
 </section>
 
-<section id="invitation" class="section-padding">
+<section id="invitation" class="section-padding" style="padding-bottom: 0">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h3>We’re Getting Married!</h3>
-                <p>
-                    Please join us in celebrating our wedding and our planned wedding in Israel next year!
-                </p>
+                <h3 style="font-size: 26px">We’re Getting Married!</h3>
+
             </div>
         </div>
     </div>
 </section>
+
+
+<section id="map" class="section-padding" style="padding-top: 20px">
+    <div class="text-center">
+        <h3>When and where is the wedding?</h3>
+        <p>
+        Tuesday, October 13<sup>th</sup>, 2020<br></p>
+
+        <u><a style="color: #8794a4" href="https://www.lawrence.co.il"><p class="address">The Lawrence</p></a></u>
+        <p class="address">HaTsorfim St. 18</p>
+        <p>Tel Aviv-Yafo, Israel</p>
+    </div>
+    <div id="map-canvas"></div>
+
+</section>
+
+<section id="hotels" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Hotels</h3>
+                <p>
+                    Hotel rooms are available at the locations listed below under the name <b>"Tzemach & Bergman Wedding"</b>, but rooms are already filling up!
+                    <br/>Alternative accomodation are also available close to our venue at boutique hotels and on AirBNB.
+                    <br/>Let us know if you need recommendations, we can be your Israeli guides!
+                </p>
+
+                <div class="hotels">
+                <div class="hotel-align">
+                    <u style="margin-bottom: 10px"><a href="https://www.booking.com/hotel/il/rothschild-22.html" style="color: #8794a4">Rothschild 22</a></u>
+                    <img class="rot22" src="ro22.jpg"/>
+                    </div>
+                <div class="hotel-align">
+                    <u style="margin-bottom: 10px"><a href="https://www.booking.com/hotel/il/prima-tel-aviv.html" style="color: #8794a4">Prima Tel Aviv Hotel</a></u>
+                    <img class="prima" src="prima.jpg"/>
+                </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="registry">
+    <div class="text-center">
+        <h3>Registry</h3>
+    </div>
+    <div id="video-content">
+        <a href="https://registry.thebay.com/registry/view-registry/jodiandelad" class="registryLink">
+            <u><p class="registryLink">The Bay</p></u></a>
+        <a href="https://www.williamashley.com/giftregistry/view/index/id/DNXUL/" class="registryLink">
+            <u><p class="registryLink">William Ashley</p></u></a>
+    </div>
+</section>
+
+<br>
+<br>
+<br>
 
 <section id="intro">
     <div class="container">
@@ -119,123 +177,92 @@
     </div>
 </section>
 
-<section id="map" class="section-padding">
-    <div class="text-center">
-        <h3>When and where is the party?</h3>
-        <p>
-        Saturday, August 24<sup>th</sup>, 2019<br>
-        Seven O’Clock in the evening</p>
+<!--<section class="rsvp text-center" id="rsvp">-->
 
-        <p class="address">10 Huntington Park Drive</p>
-        <p>Thornhill, ON L3T 7H2</p>
-    </div>
-    <div id="map-canvas"></div>
+<!--    <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">-->
+<!--        <div class="modal-dialog" role="document">-->
+<!--            <div class="modal-content">-->
+<!--                <div class="modal-body">-->
+<!--                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>-->
+<!--                    </button>-->
+<!--                    <div class="section-padding">-->
+<!--                        <h3>Thank you!</h3>-->
+<!--                        <p>We are excited to have you join us.</p>-->
+<!--                        <div id="add-to-cal"></div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>&lt;!&ndash; /.modal-content &ndash;&gt;-->
+<!--        </div>&lt;!&ndash; /.modal-dialog &ndash;&gt;-->
+<!--    </div>&lt;!&ndash; /.modal &ndash;&gt;-->
 
-</section>
+<!--    <div id="rsvp-modal-no" class="modal fade" tabindex="-1" role="dialog">-->
+<!--        <div class="modal-dialog" role="document">-->
+<!--            <div class="modal-content">-->
+<!--                <div class="modal-body">-->
+<!--                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>-->
+<!--                    </button>-->
+<!--                    <div class="section-padding">-->
+<!--                        <h3>Thank you for responding!</h3>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>&lt;!&ndash; /.modal-content &ndash;&gt;-->
+<!--        </div>&lt;!&ndash; /.modal-dialog &ndash;&gt;-->
+<!--    </div>&lt;!&ndash; /.modal &ndash;&gt;-->
 
-
-<section id="registry">
-    <div class="text-center">
-        <h3>Registry</h3>
-    </div>
-    <div id="video-content">
-        <a href="https://registry.thebay.com/registry/view-registry/jodiandelad" class="registryLink">
-            <u><p class="registryLink">The Bay</p></u></a>
-        <a href="https://www.williamashley.com/giftregistry/view/index/id/DNXUL/" class="registryLink">
-            <u><p class="registryLink">William Ashley</p></u></a>
-    </div>
-</section>
-
-<br>
-<br>
-<br>
-
-<section class="rsvp text-center" id="rsvp">
-
-    <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
-                    </button>
-                    <div class="section-padding">
-                        <h3>Thank you!</h3>
-                        <p>We are excited to have you join us.</p>
-                        <div id="add-to-cal"></div>
-                    </div>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
-    <div id="rsvp-modal-no" class="modal fade" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
-                    </button>
-                    <div class="section-padding">
-                        <h3>Thank you for responding!</h3>
-                    </div>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <h3>Please RSVP below by Thursday, <br>August 8<sup>th</sup> 2019</h3>
-                <form id="rsvp-form" class="rsvp-form"
-                      action=""
-                      method="POST">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12">
-                            <div>
-                                <i class="fa"><h3 class="attendingText">Attending?</h3></i>
-                                <select name="attending">
-                                    <option value="Yes">Yes</option>
-                                    <option value="No">No</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="name" class=""
-                                                                 placeholder="Your name"
-                                                                 required>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
-                                                                     placeholder="Your email"
-                                                                     required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12">
-                            <div class="form-input-group">
-                                <i class="fa fa-users"></i><input type="number" name="number" class="" min="0"
-                                                                  placeholder="Number of people (if attending)"
-                            >
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12" id="alert-wrapper"></div>
-                    </div>
-                    <button class="btn-fill rsvp-btn">
-                        RSVP
-                    </button>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-6 col-md-offset-3">-->
+<!--                <h3>Please RSVP below by Thursday, <br>August 8<sup>th</sup> 2019</h3>-->
+<!--                <form id="rsvp-form" class="rsvp-form"-->
+<!--                      action=""-->
+<!--                      method="POST">-->
+<!--                    <div class="row">-->
+<!--                        <div class="col-md-12 col-sm-12">-->
+<!--                            <div>-->
+<!--                                <i class="fa"><h3 class="attendingText">Attending?</h3></i>-->
+<!--                                <select name="attending">-->
+<!--                                    <option value="Yes">Yes</option>-->
+<!--                                    <option value="No">No</option>-->
+<!--                                </select>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="row">-->
+<!--                        <div class="col-md-6 col-sm-6">-->
+<!--                            <div class="form-input-group">-->
+<!--                                <i class="fa fa-user"></i><input name="name" class=""-->
+<!--                                                                 placeholder="Your name"-->
+<!--                                                                 required>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-md-6 col-sm-6">-->
+<!--                            <div class="form-input-group">-->
+<!--                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""-->
+<!--                                                                     placeholder="Your email"-->
+<!--                                                                     required>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="row">-->
+<!--                        <div class="col-md-12 col-sm-12">-->
+<!--                            <div class="form-input-group">-->
+<!--                                <i class="fa fa-users"></i><input type="number" name="number" class="" min="0"-->
+<!--                                                                  placeholder="Number of people (if attending)"-->
+<!--                            >-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="row">-->
+<!--                        <div class="col-md-12" id="alert-wrapper"></div>-->
+<!--                    </div>-->
+<!--                    <button class="btn-fill rsvp-btn">-->
+<!--                        RSVP-->
+<!--                    </button>-->
+<!--                </form>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 
 <footer>
     <div class="container">

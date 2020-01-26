@@ -53,6 +53,45 @@ h5 {
     text-transform: uppercase
 }
 
+.hotels {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+    .hotels {
+        flex-direction: column;
+    }
+}
+
+.rot22 {
+   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .rot22 {
+        width: 70%;
+    }
+}
+
+.prima {
+    width: 100%;
+    margin-left: 20px
+}
+
+@media screen and (max-width: 992px) {
+    .prima {
+        width: 70%;
+        margin-left: 0;
+    }
+}
+
+.hotel-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .address {
     padding-bottom: 0px;
     margin-bottom: 0px;
